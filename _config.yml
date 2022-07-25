@@ -76,9 +76,9 @@ paginate_path: /:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
-# uncomment remote_theme
+# With github pages it should only be remote_theme.
 
-theme: jekyll-theme-hydejack
+# theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
