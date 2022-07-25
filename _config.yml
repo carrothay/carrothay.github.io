@@ -76,6 +76,7 @@ paginate_path: /:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
+# uncomment remote_theme
 
 theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
