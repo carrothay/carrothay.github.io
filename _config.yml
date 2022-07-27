@@ -49,10 +49,19 @@ author:
 menu:
   - title: About
     url: /about/
-  - title: Devlog
-    url: /devlog/
-  - title: Studylog
-    url: /studylog/
+  - title: Algorithm
+    url: /algorithm/
+  - title: Java
+    url: /java/
+  - title: Python
+    url: /python/
+  - title: CS
+    url: /cs/
+  - title: Spring
+    url: /spring/
+  - title: JavaScript
+    url: /javascript/
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
