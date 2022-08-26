@@ -6,7 +6,7 @@ menu: true
 order: 7
 description: >
   Javascript study notes
-accent_color: rgb(191, 162, 219)
+accent_color: rgb(175, 180, 255)
 accent_image:
   background: rgb(32, 32, 32)
   overlay: false

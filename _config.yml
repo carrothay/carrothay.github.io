@@ -62,7 +62,6 @@ menu:
   - title: JavaScript
     url: /javascript/
 
-
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 #legal:
@@ -95,7 +94,7 @@ remote_theme: hydecorp/hydejack@v9
 
 # Sidebar image and theme color of the site.
 accent_image: /assets/img/sidebar-bg.jpg
-accent_color: rgb(240,217,255)
+accent_color: rgb(175,180,255)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
