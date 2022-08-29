@@ -65,21 +65,21 @@ sitemap: false
 ---
 
 - web.xml의 기능(문지기가 사용하는 관리자가 준 문서)
-1. ServletContext의 초기 파라미터 설정
-    - 한 번 설정해두면 어디서든 사용할 수 있음
-2. Session의 유효시간 설정
-    - 인증을 통해 들어와서 머무를 수 있는 유효시간
-3. Servlet/JSP에 대한 정의 및 mapping
-    - 방문자가 요청한 식별자의 위치를 안내해줌
-4. Mime Type mapping
-    - 방문자가 들고 방문한 데이터타입을 알아내는 것. 아무것도 안 들고 왔으면 GET방식(select)
-5. Welcome File list
-    - 목적지없이 방문한 사용자를 어디로 보낼지 설정
-6. Error pages 처리
-7. 리스너/필터 설정
-    - 필터: 방문자의 신분 확인
-    - 리스너: 새로운 대리인으로서 문지기와 동시에 방문자를 확인하여 특정 사용자를 찾아 데려감
-8. 보안
+*. ServletContext의 초기 파라미터 설정
+   - 한 번 설정해두면 어디서든 사용할 수 있음
+*. Session의 유효시간 설정
+   - 인증을 통해 들어와서 머무를 수 있는 유효시간
+*. Servlet/JSP에 대한 정의 및 mapping
+   - 방문자가 요청한 식별자의 위치를 안내해줌
+*. Mime Type mapping
+   - 방문자가 들고 방문한 데이터타입을 알아내는 것. 아무것도 안 들고 왔으면 GET방식(select)
+*. Welcome File list
+   - 목적지없이 방문한 사용자를 어디로 보낼지 설정
+*. Error pages 처리
+*. 리스너/필터 설정
+   - 필터: 방문자의 신분 확인
+   - 리스너: 새로운 대리인으로서 문지기와 동시에 방문자를 확인하여 특정 사용자를 찾아 데려감
+*. 보안
 - 여기서 Servlet/JSP mapping시(web.xml 직접 매핑 or @WebServlet 어노테이션 사용) 에 모든 클래스에 매핑을 적용시키기에는 코드가 너무 복잡해지기 때문에 FrontController pattern을 이용함
 
 ---
