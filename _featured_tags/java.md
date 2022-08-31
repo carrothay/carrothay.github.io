@@ -1,5 +1,6 @@
 ---
-layout: list
+layout: tag-list
+type: tag
 title: Java
 slug: java
 #accent_color: rgb(175, 180, 255)
