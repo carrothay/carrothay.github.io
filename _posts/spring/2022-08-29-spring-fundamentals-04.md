@@ -67,7 +67,7 @@ ContextLoaderListener에 의해 실행됨 - 이것은 web.xml이 실행해주는
 ![Untitled](https://user-images.githubusercontent.com/85178486/187167443-66f8d709-d37f-407a-89fa-985e255861cc.png){:.lead width="800" height="100" loading="lazy"}
 
 1. 웹 애플리케이션 실행하면 Tomcat(WAS)에 의해 web.xml loading
-2. web.xml에 등록되어있는 ContextLoaderListern(Java Class) 생성. ContextLoaderListener class는 ServletContextListern 인터페이스를 구현하고 있으며, ApplicationContext를 생성하는 역할이다.
+2. web.xml에 등록되어있는 ContextLoaderListener(Java Class) 생성. ContextLoaderListener class는 ServletContextListener 인터페이스를 구현하고 있으며, ApplicationContext를 생성하는 역할이다.
 3. 생성된 ContextLoaderListerner는 root-context.xml을 loading (보통 DB와 관련)
 4. root-context.xml에 등록되어 있는 Spring Container구동. 이 때 개발자가 작성한 비즈니스 로직에 대한 부분과 DAO, VO 객체들 생성
 5. 클라이언트의 웹 애플리케이션 요청
